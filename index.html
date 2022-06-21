@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* css reset */
+        *,*::before,*::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        }
+
+        body {
+            height: 100vh;
+        }
+        .top {
+            height: 20%;
+            margin-bottom: 20px;
+        }
+        .middle {
+            display: flex;
+            margin: 10px;
+            height: 70%;
+            background-color: blueviolet;
+        }
+        #footer {
+            background-color: brown;
+            margin: 10px;
+            height: 10%;
+            text-align: center;
+            font-weight: bold;
+            border: 5px solid black;
+        }
+        #header {
+            background-color:blue;
+            margin: 10px;
+            height: 50%;
+            text-align:center;
+            border: 5px solid black;
+        }
+        #nav {
+            background-color: olive;
+            margin: 10px;
+            height: 50%;
+            text-align: center;
+            border: 5px solid black;
+        }
+       
+        #main {
+            width: 60%;
+            background-color: lawngreen;
+            margin: 10px;
+            text-align: center;
+            font-weight: bold;
+            border: 5px solid black;
+        }
+        #right {
+            width: 20%;
+            background-color: fuchsia;
+            margin: 10px;
+            text-align: center;
+            font-size: large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+            border: 5px solid black;
+        }
+        #left {
+            width: 20%;
+            background-color: indigo;
+            margin: 10px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;border: 5px solid black;
+        }
+       
+        
+</style>
+<div class="top">
+    <header id="header">Header</header>
+    <nav id="nav">Nav</nav>
+</div>
+<div class="middle">
+    <aside id="left">Left</aside>
+    <main id="main">Main</main>
+    <aside id="right">Right</aside>
+</div>
+    <footer id="footer">Footer</footer>
+
+
+</body>
+</html>
